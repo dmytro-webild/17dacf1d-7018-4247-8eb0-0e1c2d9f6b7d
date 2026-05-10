@@ -49,11 +49,11 @@ export default function LandingPage() {
       buttons={[{ text: "Book Your Consultation Today", href: "#contact" }]}
       carouselItems={[
         { id: "1", imageSrc: "http://img.b2bpic.net/free-photo/smiling-woman-running-holding-bottle-with-water_23-2148138021.jpg", imageAlt: "Happy patient smiling" },
-        { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/dental-model-premolar-tooth-3d-rendering_460848-7429.jpg", imageAlt: "Implant" },
-        { id: "3", imageSrc: "http://img.b2bpic.net/free-photo/toothbrush-composition_23-2147817631.jpg", imageAlt: "Hygiene" },
-        { id: "4", imageSrc: "http://img.b2bpic.net/free-photo/female-dentist-examining-teeth-patient-clinic_23-2147906011.jpg", imageAlt: "Examination" },
-        { id: "5", imageSrc: "http://img.b2bpic.net/free-photo/career-success-office-concert-senior_1262-2793.jpg", imageAlt: "Patient" },
-        { id: "6", imageSrc: "http://img.b2bpic.net/free-photo/senior-couple-beach-retirement-summer-vacation-concept_329181-14057.jpg", imageAlt: "Care" }
+        { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/dental-model-premolar-tooth-3d-rendering_460848-7429.jpg?_wi=1", imageAlt: "Implant" },
+        { id: "3", imageSrc: "http://img.b2bpic.net/free-photo/toothbrush-composition_23-2147817631.jpg?_wi=1", imageAlt: "Hygiene" },
+        { id: "4", imageSrc: "http://img.b2bpic.net/free-photo/female-dentist-examining-teeth-patient-clinic_23-2147906011.jpg?_wi=1", imageAlt: "Examination" },
+        { id: "5", imageSrc: "http://img.b2bpic.net/free-photo/career-success-office-concert-senior_1262-2793.jpg?_wi=1", imageAlt: "Patient" },
+        { id: "6", imageSrc: "http://img.b2bpic.net/free-photo/senior-couple-beach-retirement-summer-vacation-concept_329181-14057.jpg?_wi=1", imageAlt: "Care" }
       ]}
     />
   </div>
@@ -74,13 +74,13 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          tag: "Advanced",          title: "Dental Implants",          subtitle: "Lasting solutions",          description: "Precision implant dentistry for natural-looking, comfortable, and durable smile restoration.",          imageSrc: "http://img.b2bpic.net/free-photo/dental-model-premolar-tooth-3d-rendering_460848-7429.jpg",          imageAlt: "Dental Implants"
+          tag: "Advanced",          title: "Dental Implants",          subtitle: "Lasting solutions",          description: "Precision implant dentistry for natural-looking, comfortable, and durable smile restoration.",          imageSrc: "http://img.b2bpic.net/free-photo/dental-model-premolar-tooth-3d-rendering_460848-7429.jpg?_wi=2",          imageAlt: "Dental Implants"
         },
         {
-          tag: "Hygiene",          title: "Root Canal Therapy",          subtitle: "Expert care",          description: "Gentle and pain-free endodontic procedures to save your natural teeth.",          imageSrc: "http://img.b2bpic.net/free-photo/toothbrush-composition_23-2147817631.jpg",          imageAlt: "Root Canal"
+          tag: "Hygiene",          title: "Root Canal Therapy",          subtitle: "Expert care",          description: "Gentle and pain-free endodontic procedures to save your natural teeth.",          imageSrc: "http://img.b2bpic.net/free-photo/toothbrush-composition_23-2147817631.jpg?_wi=2",          imageAlt: "Root Canal"
         },
         {
-          tag: "Family",          title: "Routine Care",          subtitle: "Prevention first",          description: "Regular checkups, cleanings, and oral health guidance for all ages.",          imageSrc: "http://img.b2bpic.net/free-photo/female-dentist-examining-teeth-patient-clinic_23-2147906011.jpg",          imageAlt: "Routine Dentistry"
+          tag: "Family",          title: "Routine Care",          subtitle: "Prevention first",          description: "Regular checkups, cleanings, and oral health guidance for all ages.",          imageSrc: "http://img.b2bpic.net/free-photo/female-dentist-examining-teeth-patient-clinic_23-2147906011.jpg?_wi=2",          imageAlt: "Routine Dentistry"
         },
       ]}
       title="Our Specialized Dental Services"
@@ -109,9 +109,9 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={true}
       testimonials={[
-        { id: "1", name: "Sarah J.", handle: "@patient", testimonial: "Dr. Anshu is extremely professional and gentle. My dental anxiety is completely gone.", imageSrc: "http://img.b2bpic.net/free-photo/career-success-office-concert-senior_1262-2793.jpg" },
+        { id: "1", name: "Sarah J.", handle: "@patient", testimonial: "Dr. Anshu is extremely professional and gentle. My dental anxiety is completely gone.", imageSrc: "http://img.b2bpic.net/free-photo/career-success-office-concert-senior_1262-2793.jpg?_wi=2" },
         { id: "2", name: "Michael K.", handle: "@patient", testimonial: "Best implant experience ever. The recovery was swift and the results are perfect.", imageSrc: "http://img.b2bpic.net/free-photo/senior-businessman-outside-modern-office-building_1139-1076.jpg" },
-        { id: "3", name: "Radhika & Rajesh", handle: "@family", testimonial: "Great service for the whole family! Dr. Anshu is our dentist for life.", imageSrc: "http://img.b2bpic.net/free-photo/senior-couple-beach-retirement-summer-vacation-concept_329181-14057.jpg" },
+        { id: "3", name: "Radhika & Rajesh", handle: "@family", testimonial: "Great service for the whole family! Dr. Anshu is our dentist for life.", imageSrc: "http://img.b2bpic.net/free-photo/senior-couple-beach-retirement-summer-vacation-concept_329181-14057.jpg?_wi=2" },
       ]}
       title="What Our Patients Say"
       description="Our focus is always on your comfort, and it shows in our patient feedback."
