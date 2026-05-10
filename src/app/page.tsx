@@ -6,7 +6,7 @@ import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureCardNineteen from '@/components/sections/feature/FeatureCardNineteen';
 import FooterCard from '@/components/sections/footer/FooterCard';
-import HeroSplit from '@/components/sections/hero/HeroSplit';
+import HeroBillboardRotatedCarousel from '@/components/sections/hero/HeroBillboardRotatedCarousel';
 import MetricCardEleven from '@/components/sections/metrics/MetricCardEleven';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
@@ -42,15 +42,18 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroSplit
+      <HeroBillboardRotatedCarousel
       background={{ variant: "plain" }}
       title="Restore Your Smile With Confidence & Care"
       description="Dr Anshu Family Dental Care brings 20 years of expertise to comprehensive dental solutions—from routine cleanings to advanced implants. Trusted by 232 families in Pune for genuine, compassionate treatment."
-      imageSrc="http://img.b2bpic.net/free-photo/smiling-woman-running-holding-bottle-with-water_23-2148138021.jpg"
-      imageAlt="Happy patient smiling"
-      mediaAnimation="opacity"
-      buttons={[
-        { text: "Book Your Consultation Today", href: "#contact" },
+      buttons={[{ text: "Book Your Consultation Today", href: "#contact" }]}
+      carouselItems={[
+        { id: "1", imageSrc: "http://img.b2bpic.net/free-photo/smiling-woman-running-holding-bottle-with-water_23-2148138021.jpg", imageAlt: "Happy patient smiling" },
+        { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/dental-model-premolar-tooth-3d-rendering_460848-7429.jpg", imageAlt: "Implant" },
+        { id: "3", imageSrc: "http://img.b2bpic.net/free-photo/toothbrush-composition_23-2147817631.jpg", imageAlt: "Hygiene" },
+        { id: "4", imageSrc: "http://img.b2bpic.net/free-photo/female-dentist-examining-teeth-patient-clinic_23-2147906011.jpg", imageAlt: "Examination" },
+        { id: "5", imageSrc: "http://img.b2bpic.net/free-photo/career-success-office-concert-senior_1262-2793.jpg", imageAlt: "Patient" },
+        { id: "6", imageSrc: "http://img.b2bpic.net/free-photo/senior-couple-beach-retirement-summer-vacation-concept_329181-14057.jpg", imageAlt: "Care" }
       ]}
     />
   </div>
